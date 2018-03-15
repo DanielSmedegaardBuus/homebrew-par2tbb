@@ -1,7 +1,7 @@
 # homebrew-par2tbb
 Chuchusoft.com's last version of par2tbb by Vincent Tan, tapped for Homebrew, and maintained by me to ensure it brews correctly.
 
-Get the original tarball under [releases](./releases), or clone/fork this repo for the sources.
+Get the original tarball under [releases](https://github.com/DanielSmedegaardBuus/homebrew-par2tbb/releases/), or clone/fork this repo for the sources.
 
 If you want to verify the SHA256 sum (17a5bb5e63c1b9dfcf5feb5447cee60a171847be7385d95f1e2193a7b59a01ad), the chuchusoft.com website is still cached on [archive.org](https://web.archive.org/web/20141212202746/http://chuchusoft.com/par2_tbb/download.html) (including downloads!).
 
