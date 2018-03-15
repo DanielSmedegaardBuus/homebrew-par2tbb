@@ -1,14 +1,3 @@
-# homebrew-par2tbb
-Chuchusoft.com's last version of par2tbb by Vincent Tan, tapped for Homebrew, and maintained by me to ensure it brews correctly.
-
-Get the original tarball under [releases](./releases), or clone/fork this repo for the sources.
-
-If you want to verify the SHA256 sum (17a5bb5e63c1b9dfcf5feb5447cee60a171847be7385d95f1e2193a7b59a01ad), the chuchusoft.com website is still cached on [archive.org](https://web.archive.org/web/20141212202746/http://chuchusoft.com/par2_tbb/download.html) (including downloads!).
-
-Here are the contents of README_FIRST.txt:
-
----
-
 === Table of contents ===
 
 --- Introduction ---
@@ -282,7 +271,7 @@ LIB_LINK_CMD = lib.exe
 LIB_LINK_FLAGS=/nologo
 
 # static library version of TBB cannot pass /SAFESEH to lib.exe:
-#   LIB_LINK_FLAGS += /SAFESEH
+#	LIB_LINK_FLAGS += /SAFESEH
 
 # static library version of TBB asks lib.exe to output to tbb.lib or tbb_debug.lib:
 #OUTPUT_KEY = /Fe
@@ -299,7 +288,7 @@ set LIB=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\LIB\amd64;C:\Prog
     first download the source tarball for it and build it using its instructions.
 
     Note the use of the vc_mt runtime, which asks to link the TBB library statically
-    with the C runtime library:
+	with the C runtime library:
 
 cd <tbb>
 gmake.exe tbb runtime=vc_mt arch=intel64
@@ -505,7 +494,7 @@ The changes in the 20141125 version are:
     logical CPUs.
   - the maximum number of logical CPUs may be determined by the operating system or the
     hypervisor and may be less than the actual number of physical CPU cores, eg, when
-    running in a virtual machine.
+	running in a virtual machine.
 - in the Windows version, the program's CPU scheduling priority can now be specified
   using the -p parameter:
   -pN to process at normal priority (Normal in Task Manager) [default]
