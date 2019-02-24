@@ -12,10 +12,6 @@ class Par2tbb < Formula
   conflicts_with "par2",
     :because => "par2tbb and par2 install the same binaries."
 
-  fails_with :clang do
-    build 318
-  end
-
   def install
     system "autoreconf", "-fvi"
     # par2tbb expects to link against 10.4 / 10.5 SDKs
